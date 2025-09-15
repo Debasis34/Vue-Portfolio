@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.outline-text {
+  color: transparent;
+  -webkit-text-stroke: 1px #000957; /* Tailwind's yellow-400 */
+}
+
+.dark .outline-text {
+  color: #efc107;            /* Filled yellow in dark mode */
+  -webkit-text-stroke: 0px;  /* Remove stroke in dark mode */
+}
