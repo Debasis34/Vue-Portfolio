@@ -1,5 +1,6 @@
 <template>
-  <section class="flex justify-center items-center dark:text-white min-h-screen mt-20 lg:mt-0">
+  <section
+  data-aos="zoom-out" class="flex justify-center items-center dark:text-white min-h-screen mt-20 lg:mt-0">
 
     <!-- Top background blob -->
     <header class="absolute w-1/2 aspect-[16/5] -skew-x-12 
@@ -44,7 +45,7 @@
     before:shadow-[7px_7px_21px_secondary,_-7px_-7px_21px_secondary]">
     <div class="relative w-full h-full bg-cover transform translate-x-[10px]
     translate-y-[10px]">
-      <img src="@/assets/images/profile.jpg" alt="Hero Picture" class="max-w-1/2" loading="lazy">
+      <img src="" alt="Hero Picture" class="max-w-1/2" loading="lazy">
     </img>
     </div>
 

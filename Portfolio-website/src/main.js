@@ -6,8 +6,15 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 import {Icon} from '@iconify/vue'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import Countup from 'vue-countup-v3'
 
-const app = createApp(App).component('Icon', Icon)
+
+
+AOS.init({duration:1000});
+const app = createApp(App).component('Icon', Icon).component('Countup', Countup)
+
 
 
 app.use(createPinia())
