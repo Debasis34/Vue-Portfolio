@@ -17,10 +17,10 @@
                 <a href="" class="text-gray-600 hover:text-blue-500">
                     <Icon icon="fa-brands:twitter" style="font-size:2rem"/>
                 </a>
-                 <a href="" class="text-gray-600 hover:text-blue-700">
+                 <a href="https://www.linkedin.com/in/debasis-bada" class="text-gray-600 hover:text-blue-700">
                     <Icon icon="fa-brands:linkedin" style="font-size:2rem"/>
                 </a>
-                 <a href="" class="text-gray-600 hover:text-white">
+                 <a href="https://github.com/Debasis34" class="text-gray-600 hover:text-white">
                     <Icon icon="fa-brands:github" style="font-size:2rem"/>
                 </a>
                  <a href="" class="text-gray-600 hover:text-pink-500">
