@@ -14,6 +14,7 @@ import Countup from 'vue-countup-v3'
 
 AOS.init({duration:1000});
 const app = createApp(App).component('Icon', Icon).component('Countup', Countup)
+AOS.refresh();
 
 
 
